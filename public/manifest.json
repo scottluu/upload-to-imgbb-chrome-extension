@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Upload to Imgbb",
+  "version": "1.0.0",
+  "description": "A chrome extension that lets you upload any image to Imgbb",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["contextMenus", "storage"],
+  "host_permissions": ["<all_urls>"]
+}
