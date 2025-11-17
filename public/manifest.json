@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Upload to Imgbb",
   "version": "1.0.0",
-  "description": "A chrome extension that lets you upload any image to Imgbb",
+  "description": "Right-click images to upload to ImgBB and open the share link. Requires API key; optional expiration.",
   "action": {
     "default_popup": "index.html"
   },

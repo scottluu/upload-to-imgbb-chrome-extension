@@ -99,6 +99,11 @@ Your React app should now be loaded as a Chrome extension!
 - `tsconfig.json`: TypeScript configuration file.
 - `package.json`: Contains the project dependencies and scripts.
 
+## 🛍️ Chrome Web Store Listing
+
+- Use STORE_DESCRIPTION.md for a ready-to-paste long description when publishing to the Chrome Web Store.
+- The short description comes from public/manifest.json and should be concise. Update it there if needed.
+
 ## License
 
 This project is licensed under the MIT License.
