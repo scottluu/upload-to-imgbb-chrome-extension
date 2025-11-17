@@ -84,8 +84,11 @@ function App() {
       <div className="card" style={{ textAlign: "left" }}>
         <h2>API key configuration</h2>
         <p style={{ marginTop: 0 }}>
-          This extension requires an API key to upload images. Enter your key
-          below and click Save.
+          This extension requires an{" "}
+          <a href={"https://api.imgbb.com/"} target={"_blank"}>
+            ImgBB API key
+          </a>{" "}
+          to upload images. Enter your key below and click Save.
         </p>
         <div style={{ width: "100%", boxSizing: "border-box" }}>
           <button
